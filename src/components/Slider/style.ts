@@ -70,6 +70,9 @@ ${props => props.label && `
 
 const Wrapper = styled.div`
 position: relative;
+.grabbing {
+  cursor: grabbing !important;
+}
 `
 
 export const SliderElements = {

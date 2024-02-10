@@ -213,7 +213,7 @@ const Slider: React.FC<SliderProps> = (props) => {
     <SliderElements.Line
       $sliderxaxisvalue={sliderXAxisValue}
       width={width}
-      className={startMove ? 'dragging' : ''}
+      className={startMove ? 'grabbing' : ''}
       color={props.thumbColor || defaultThumbColor}
       onMouseDown={handleClickSlider}
       $lineBackgrondColor={props.lineBackgroundColor || defaultLineBackgroundColor}

@@ -51,6 +51,7 @@ export default function Home() {
             max={200}
             step={10}
             value={value}
+            unit={'kg'}
             width={400}
             onChange={(value, percent) => {
               setValue(value)
